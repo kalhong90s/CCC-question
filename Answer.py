@@ -3,7 +3,7 @@
 1. Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number 
 and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 '''
-ans = []
+answer = []
 for num in range(1,100+1):
     if (num % 3 == 0 and num % 5 == 0):
         ans.append("FizzBuzz")
@@ -13,7 +13,7 @@ for num in range(1,100+1):
         ans.append("Buzz")
     else:
         ans.append(str(num))
-print(ans)
+print(answer)
 
 
 
