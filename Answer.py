@@ -87,7 +87,7 @@ for i in range(0,n):
     
     
     
-#3.5 not work of even number
+#3.5 not work for even number
 n = int(input("Please Enter the number :"))     
 for i in range(1, n+1):
     i = i - (n//2 +1)
