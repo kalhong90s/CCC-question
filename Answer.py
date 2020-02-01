@@ -96,7 +96,14 @@ for i in range(1, n+1):
     print(" " * i + "*" * (n - i*2) + " "*i)
   
 
+'''
+else
+หลังจากที่เรากำหนดการทำงาน Exception Errors แล้ว หากเรารันโปรแกรมแล้วไม่พบข้อผิดพลาดที่เราได้กำหนดไว้ 
+เราสามารถใช้บล็อก else ทำงานตามเงื่อนไขที่กำหนดไว้ได้
+finally
+เป็นการกำหนดคำสั่งเมื่อสิ้นสุดการทำงานบล็อก try except โดยบล็อก finally จะทำงานไม่ว่าจะมีข้อผิดพลาดเกิดขึ้นหรือไม่ก็ตาม
 
+'''
 
 #1.Write a program that finds all prime numbers up to n for input n 
 n = int(input("Please Enter the number :")) 
