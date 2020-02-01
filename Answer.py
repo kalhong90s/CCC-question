@@ -107,7 +107,6 @@ finally
 
 #1.Write a program that finds all prime numbers up to n for input n 
 n = int(input("Please Enter the number :")) 
-
 for num in range(1, n + 1):  
    if num > 1:
        for i in range(2, num):
