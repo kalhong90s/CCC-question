@@ -6,13 +6,13 @@ and for the multiples of five print “Buzz”. For numbers which are multiples 
 answer = []
 for num in range(1,100+1):
     if (num % 3 == 0 and num % 5 == 0):
-        ans.append("FizzBuzz")
+        answer.append("FizzBuzz")
     elif num % 3 == 0:
-        ans.append("Fizz")
+        answer.append("Fizz")
     elif num % 5 == 0:
-        ans.append("Buzz")
+        answer.append("Buzz")
     else:
-        ans.append(str(num))
+        answer.append(str(num))
 print(answer)
 
 
