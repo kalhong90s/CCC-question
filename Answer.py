@@ -15,19 +15,25 @@ for num in range(1,100+1):
         ans.append(str(num))
 print(ans)
 
+
+
+
+
 '''
 2. Write a program that determine whether or not an integer input is a leap year.
 '''
-year = int(input("Please Enter the Year : "))
-
-if (year%400 == 0):
-    print(year,"-> true")
-elif (year%100 == 0):
-    print(year,"-> false")
-elif (year%4 == 0):
-    print(year,"-> true")
+n = int(input("Please Enter the Year : "))
+if (n%400 == 0):
+    print(n,"-> true")
+elif (n%100 == 0):
+    print(n,"-> false")
+elif (n%4 == 0):
+    print(n,"-> true")
 else:
-    print(year,"-> false")
+    print(n,"-> false")
+    
+    
+    
 '''
 3. Write a program that produce the following output giving an integer input n.
 
@@ -39,6 +45,9 @@ for i in range(0, n):
         print("*",end="")
     print()
     
+
+    
+    
     
 #3.2
 n = int(input("Please Enter the number :"))
@@ -49,6 +58,10 @@ for i in range(0,n):
         print("*",end="")
     print()
 
+    
+    
+    
+    
 #3.3
 n = int(input("Please Enter the number :"))
 for i in range(n):
@@ -57,6 +70,9 @@ for i in range(n):
         print(" "*(2*i-1)+"* ",end="")
     print()
 
+    
+    
+    
 #3.4
 n = int(input("Please Enter the number :"))       
 for i in range(0,n):                       
@@ -67,6 +83,10 @@ for i in range(0,n):
             print(" ",end=" ")             
     print()                                
 
+    
+    
+    
+    
 #3.5 not work of even number
 n = int(input("Please Enter the number :"))     
 for i in range(1, n+1):
@@ -75,6 +95,9 @@ for i in range(1, n+1):
         i = -i
     print(" " * i + "*" * (n - i*2) + " "*i)
   
+
+
+
 #4.0 
 n = int(input("Please Enter the number :")) 
 
